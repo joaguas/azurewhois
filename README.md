@@ -9,7 +9,7 @@ While this file helps finding out what service an IP address is associated with,
 
 This script aims to solve both issues by automatically downloading the latest file available and doing the heavy-lifting work of matching an IP address to the prefix with the highest mask.
 
-The file scraps the latest date from the page above and then uses the `pandas` library to build a dataframe from the dated .json file. It then uses `ipaddress` to check if your IP address is contained within a prefix and returns the associated Service Tag and region (when applicable).
+It scrapes the latest update date from the page above, generates the proper url for the file and then uses the `pandas` library to build a dataframe from the dated .json file. It then uses `ipaddress` to check if your IP address is contained within a prefix and returns the associated Service Tag and region (when applicable).
 
 # Installation and Usage
 
