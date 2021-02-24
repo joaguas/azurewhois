@@ -24,7 +24,8 @@ azurewhois 123.132.213.231
 
 Running the script (All OS - requires pip to install necessary libraries):
 ```
-git clone https://github.com/joaguas/azurewhois.git
+wget https://raw.githubusercontent.com/joaguas/azurewhois/main/azurewhois.py -P azurewhois/
+wget https://raw.githubusercontent.com/joaguas/azurewhois/main/requirements.txt -P azurewhois/
 cd azurewhois
 pip install -r requirements.txt
 python azurewhois.py 123.132.213.231
