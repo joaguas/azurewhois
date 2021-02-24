@@ -1,5 +1,5 @@
 # azurewhois
-Find if/which service is associated with a particular Azure IP
+Find if a/which service is associated with a particular Azure IP
 
 # Why and how?
 
