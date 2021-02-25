@@ -22,7 +22,7 @@ azurewhois 123.132.213.231
 (if you don't want to make it globally available/have no permissions just run ./azurewhois 123.132.213.231 after the chmod command)
 ```
 
-Running the script (All OS - requires pip to install necessary libraries):
+Running the script (All OS - requires python/pip (3) to install necessary libraries):
 ```
 wget https://raw.githubusercontent.com/joaguas/azurewhois/main/azurewhois.py -P azurewhois/
 wget https://raw.githubusercontent.com/joaguas/azurewhois/main/requirements.txt -P azurewhois/
