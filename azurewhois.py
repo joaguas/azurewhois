@@ -55,8 +55,8 @@ def getlatest():
         date = re.search('_(\\d+)\\.json', html_content).group(1)
     except Exception:
         print('Could not find the latest Service Tags update...'
-              'Will try an older known version (2021-02-15).')
-        date = '20210215'
+              'Will try an older known version (2023-05-01).')
+        date = '20230501'
     return date
 
 
