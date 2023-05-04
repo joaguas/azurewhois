@@ -48,9 +48,10 @@ def jsontodf(latest):
 
 def getlatest():
     try:
+        headers = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.0.0' }
         html_content = requests.get(
                 'https://www.microsoft.com/en-us/download/'
-                'details.aspx?id=56519'
+                'details.aspx?id=56519', headers=headers
                 ).content.decode('utf-8')
         date = re.search('_(\\d+)\\.json', html_content).group(1)
     except Exception:
